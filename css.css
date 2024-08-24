@@ -126,6 +126,9 @@ body {
     border-radius: 20px;
     background-color: #FCAF02;
 }
+input[type=text] {
+    color: white;
+}
 /* ////////SECTION3////////// */
 
 .section-3 {
