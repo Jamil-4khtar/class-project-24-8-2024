@@ -1,0 +1,162 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+}
+
+.nav-bar {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    padding-left: 10px;
+    background: #FCAF02;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+.nav-bar > ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-bar > ul > li {
+    /* position: fixed; */
+    height: 100%;
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-bar > ul > li:hover {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.nav-bar > ul > li > a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+/* //////////////MAIN///////////////// */
+
+.main {
+    margin-top: 100px;
+    padding: 20px;
+}
+.main > .section-1 {
+    display: flex;
+    justify-content: space-between;
+}
+.section-1 > .para > button {
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 100px;
+    height: 50px;
+    background-color: #FCAF02;
+}
+
+.section-1 > .para {
+    padding: 10px;
+}
+.section-1 > .jeff > img {
+    border: 5px solid grey;
+}
+
+.section-2 > form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+.section-2 > h1 {
+    margin-bottom: 20px;
+}
+.section-2 > form > input {
+    border: 2px solid #FCAF02;
+    border-radius: 20px;
+    padding: 10px 0px;
+    width: 90%;
+    background-color: transparent;
+}
+.section-2 > form > div {
+    box-sizing: border-box;
+    width: 90%;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-2 > form > div > input {
+    border: 2px solid #FCAF02;
+    border-radius: 20px;
+    padding: 10px 0px;
+    width: 50%;
+    background-color: transparent;
+    display: flex;  
+}
+#first {
+    margin-right: 5px;
+}
+#sec {
+    margin-left: 5px;
+}
+.section-2 > form > input::placeholder {
+    color: #FCAF02;
+    padding-left: 10px;
+}
+.section-2 > form > div > input::placeholder {
+    color: #FCAF02;
+    padding-left: 10px;
+}
+.section-2 > form > button {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #FCAF02;
+}
+/* ////////SECTION3////////// */
+
+.section-3 {
+    width: 100%;
+}
+.section-3 {
+    border-collapse: collapse;
+}
+.section > thead, th, tr, td {
+    padding: 10px;
+    text-align: center;
+} 
+.section-3, thead, tbody, tfoot {
+    border: 1px solid #FCAF02;
+}
+/* table{
+    tbody{
+        td{
+            border-right:2px solid #FCAF02;
+        }
+    }
+} */
+table > tbody> tr> td {
+    border-right: 1px solid #FCAF02;
+}
+table > thead> tr> th {
+    background-color: #FCAF02;
+    border-right: 1px solid #FCAF02;
+}
+table > tfoot> tr> td {
+    border-right: 1px solid #FCAF02;
+    background-color: #FCAF02;
+}
+
