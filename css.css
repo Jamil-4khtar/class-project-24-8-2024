@@ -88,9 +88,10 @@ body {
 .section-2 > form > input {
     border: 2px solid #FCAF02;
     border-radius: 20px;
-    padding: 10px 0px;
+    padding: 10px 20px;
     width: 90%;
     background-color: transparent;
+    color: white;
 }
 .section-2 > form > div {
     box-sizing: border-box;
@@ -102,10 +103,11 @@ body {
 .section-2 > form > div > input {
     border: 2px solid #FCAF02;
     border-radius: 20px;
-    padding: 10px 0px;
+    padding: 10px 20px;
     width: 50%;
     background-color: transparent;
     display: flex;  
+    color: white;
 }
 #first {
     margin-right: 5px;
@@ -115,20 +117,16 @@ body {
 }
 .section-2 > form > input::placeholder {
     color: #FCAF02;
-    padding-left: 10px;
 }
 .section-2 > form > div > input::placeholder {
     color: #FCAF02;
-    padding-left: 10px;
 }
 .section-2 > form > button {
     padding: 10px;
     border-radius: 20px;
     background-color: #FCAF02;
 }
-input[type=text] {
-    color: white;
-}
+
 /* ////////SECTION3////////// */
 
 .section-3 {
